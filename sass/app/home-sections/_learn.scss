@@ -1,0 +1,50 @@
+#learn{
+    padding-bottom: 100px;
+    .container{
+        background-color: #f7f5f4;
+        .learn-text{
+            padding: 45px;
+            font-size: 18px;
+            @extend .font;
+            font-weight: 300;
+            button{
+                @extend .font;
+                font-size: 14px;
+                color: white;
+                font-weight: bold;
+                border: 2px solid #fff;
+                padding: 15px 35px;
+                border-radius: 5px;
+                background-color: orange;
+                margin: 10px 0px 0px 850px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+// resp
+@media (max-width: $breakpoint-sm) {
+  }
+  
+  
+  
+  
+  @media (min-width: $breakpoint-sm) and (max-width: $breakpoint-md) {
+  
+  }
+  
+  
+  
+  
+  @media (min-width: $breakpoint-md) and (max-width: $breakpoint-lg) {
+    
+  }
+  
+  
+  
+  
+  
+  @media (min-width: $breakpoint-lg) {
+  }
+  
+  
